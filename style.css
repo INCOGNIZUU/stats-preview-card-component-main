@@ -27,7 +27,7 @@ body {
 }
 .bannerText {
   font-family: "Inter", sans-serif;
-  padding: 5rem 4rem 4rem 3rem;
+  margin: 5rem 5rem 4rem 4rem;
 }
 .bannerText h1 {
   font-size: 2rem;
