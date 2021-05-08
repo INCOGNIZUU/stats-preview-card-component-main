@@ -1,0 +1,72 @@
+/* font font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  display: flex;
+  height: 446px;
+  width: 1000px;
+}
+.bannerText .insights {
+  color: blueviolet;
+  font-size: 2rem;
+}
+.bannerText {
+  font-family: "Inter", sans-serif;
+  padding: 5rem 4rem 4rem 3rem;
+}
+.bannerText h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.bannerText h2 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 50px;
+}
+.bannerText .stat {
+  margin-top: 50px;
+  display: flex;
+  color: hsl(0, 0%, 100%);
+}
+.bannerText span {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.7rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stat p {
+  text-transform: uppercase;
+  text-align: start;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 20px 50px 10px 0;
+}
+.bannerImg {
+  background-color: blueviolet;
+}
+.bannerImg img {
+  opacity: 0.5;
+}
+.bannerImg,
+.bannerImg img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.attribution {
+  display: none;
+}
