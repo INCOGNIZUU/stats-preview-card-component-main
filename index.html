@@ -11,16 +11,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -29,38 +29,58 @@
       .attribution a {
         color: hsl(228, 45%, 44%);
       }
-    </style> -->
+    </style>
   </head>
   <body>
     <div class="card">
+      <!-- Banner Image-------------------------------------------- -->
+      <div class="bannerImg">
+        <img
+          src="/images/image-header-mobile.jpg"
+          alt="Card Mobile"
+          class="imgMobile"
+        />
+        <img
+          src="/images/image-header-desktop.jpg"
+          alt="Card Desktop"
+          class="imgDesktop"
+        />
+      </div>
+      <!-- Banner Text------------------------------------------------ -->
       <div class="bannerText">
-        <h1>
-          Get <span class="insights">insights</span> that help your business
-          grow.
-        </h1>
-        <h2>
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </h2>
-        <div class="stat">
+        <div class="heading">
+          <h1>
+            Get <span class="insight">insights</span> that <br />
+            help your business <br />
+            grow.
+          </h1>
+        </div>
+        <div class="parag">
           <p>
-            10k+ <br />
-            <span class="statParag">companies</span>
+            Discover the benefits of data <br />
+            analytics and make better decisions <br />
+            regarding revenue, customer <br />
+            experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="stats">
+          <p>
+            <span class="statsNum">10k+</span> <br />
+            companies
           </p>
           <p>
-            314 <br />
-            <span class="statParag">templates</span>
+            <span class="statsNum">314</span> <br />
+            templates
           </p>
           <p>
-            12m+ <br />
-            <span class="statParag">queries</span>
+            <span class="statsNum">12m+</span> <br />
+            queries
           </p>
         </div>
       </div>
-      <div class="bannerImg">
-        <img src="/images/image-header-desktop.jpg" alt="" />
-      </div>
     </div>
+
+    <!-- Attribution------------------------------------------------- -->
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
